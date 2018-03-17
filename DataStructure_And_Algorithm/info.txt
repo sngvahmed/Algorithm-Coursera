@@ -1,0 +1,7 @@
+in GCD
+when
+  - a' is reminder a / b
+  - b' is reminder b / a
+gcd(a , b) = gcd(a' , b) = gcd(a , b')
+lcd(a,b) * gcd(a,b) = a * b
+
